@@ -3,6 +3,7 @@ module github.com/Netflix/chaosmonkey/v2
 go 1.19
 
 require (
+	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/SmartThingsOSS/frigga-go v0.0.0-20180827230714-55b2c36db3e7
 	github.com/davecgh/go-spew v1.1.1
 	github.com/go-sql-driver/mysql v1.2.1-0.20160802113842-0b58b37b664c
@@ -11,6 +12,7 @@ require (
 	github.com/rubenv/sql-migrate v0.0.0-20160620083229-6f4757563362
 	github.com/spf13/pflag v0.0.0-20160915153101-c7e63cf4530b
 	github.com/spf13/viper v0.0.0-20160926150402-382f87b929b8
+	github.com/stretchr/testify v1.8.1
 	golang.org/x/crypto v0.0.0-20160922170629-8e06e8ddd962
 )
 
@@ -25,14 +27,16 @@ require (
 	github.com/pelletier/go-buffruneio v0.1.0 // indirect
 	github.com/pelletier/go-toml v0.3.6-0.20160920070715-45932ad32dfd // indirect
 	github.com/pkg/sftp v0.0.0-20160908100035-8197a2e58073 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/afero v0.0.0-20160919210114-52e4a6cfac46 // indirect
 	github.com/spf13/cast v0.0.0-20160926084249-2580bc98dc0e // indirect
 	github.com/spf13/jwalterweatherman v0.0.0-20160311093646-33c24e77fb80 // indirect
-	github.com/stretchr/testify v1.8.1 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/sys v0.0.0-20160916181909-8f0908ab3b24 // indirect
+	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/gorp.v1 v1.7.1 // indirect
 	gopkg.in/yaml.v2 v2.0.0-20160912165603-31c299268d30 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
